@@ -1,0 +1,48 @@
+{
+  "name": "TargetHud",
+  "description": "Shows combat information about your current target.",
+  "enabled": true,
+  "singleton": true,
+  "alignment": {
+    "horizontalAlignment": "Center",
+    "horizontalOffset": 20,
+    "verticalAlignment": "CenterTranslated",
+    "verticalOffset": 0
+  },
+  "values": [
+    {
+      "type": "CHOOSE",
+      "name": "Style",
+      "value": "Round",
+      "choices": ["Round", "Rise", "Moon", "Simple"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Readout",
+      "value": "Number",
+      "choices": ["Number", "Hearts"]
+    },
+    {
+      "type": "BOOLEAN",
+      "name": "ShowDistance",
+      "value": true
+    },
+    {
+      "type": "BOOLEAN",
+      "name": "ShowArmor",
+      "value": true
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Glow",
+      "value": "Off",
+      "choices": ["Off", "Weak", "Medium", "Strong"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Shadow",
+      "value": "Off",
+      "choices": ["Off", "Weak", "Medium", "Strong"]
+    }
+  ]
+}

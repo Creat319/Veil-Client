@@ -1,0 +1,76 @@
+{
+  "name": "ArrayList",
+  "description": "Shows currently enabled modules.",
+  "enabled": true,
+  "singleton": true,
+  "alignment": {
+    "horizontalAlignment": "Right",
+    "horizontalOffset": 0,
+    "verticalAlignment": "Top",
+    "verticalOffset": 0
+  },
+  "values": [
+    {
+      "type": "BOOLEAN",
+      "name": "ShowTags",
+      "value": true
+    },
+    {
+      "type": "CHOOSE",
+      "name": "ItemAlignment",
+      "value": "Right",
+      "choices": ["Left", "Right"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Order",
+      "value": "Descending",
+      "choices": ["Descending", "Ascending", "Alphabetical"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Style",
+      "value": "Staircase",
+      "choices": ["Staircase", "Accent", "Pill", "Text"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Animation",
+      "value": "SlideFade",
+      "choices": ["Slide", "Fade", "SlideFade", "Scale"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "TextColor",
+      "value": "Theme",
+      "choices": ["Theme", "Accent", "White"]
+    },
+    {
+      "type": "BOOLEAN",
+      "name": "ShowLine",
+      "value": false
+    },
+    {
+      "type": "BOOLEAN",
+      "name": "ShowBackground",
+      "value": true
+    },
+    {
+      "type": "BOOLEAN",
+      "name": "Lowercase",
+      "value": false
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Glow",
+      "value": "Off",
+      "choices": ["Off", "Weak", "Medium", "Strong"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Shadow",
+      "value": "Off",
+      "choices": ["Off", "Weak", "Medium", "Strong"]
+    }
+  ]
+}

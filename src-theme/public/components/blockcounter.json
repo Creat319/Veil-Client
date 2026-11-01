@@ -1,0 +1,43 @@
+{
+  "name": "BlockCounter",
+  "description": "Shows the number of blocks available for bridging.",
+  "enabled": true,
+  "singleton": true,
+  "alignment": {
+    "horizontalAlignment": "Center",
+    "horizontalOffset": -20,
+    "verticalAlignment": "CenterTranslated",
+    "verticalOffset": 0
+  },
+  "values": [
+    {
+      "type": "CHOOSE",
+      "name": "IconPosition",
+      "value": "Left",
+      "choices": ["None", "Left", "Right", "Top", "Bottom"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "FullProgress",
+      "value": "64",
+      "choices": ["64", "128", "256"]
+    },
+    {
+      "type": "BOOLEAN",
+      "name": "Alert",
+      "value": true
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Glow",
+      "value": "Off",
+      "choices": ["Off", "Weak", "Medium", "Strong"]
+    },
+    {
+      "type": "CHOOSE",
+      "name": "Shadow",
+      "value": "Off",
+      "choices": ["Off", "Weak", "Medium", "Strong"]
+    }
+  ]
+}
