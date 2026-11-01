@@ -35,7 +35,7 @@
 | 目标信息 HUD（`hud/elements/targethud/TargetHud.svelte`） | 重写：Round / Rise / Moon / Simple 四种样式，圆角头像、渐变胶囊血条与掉血残影、掉血弹性回弹、装备格与耐久条、数字或心形血量 |
 | 方块计数 HUD（`hud/elements/BlockCounter.svelte`） | 重写：胶囊卡片、弹簧缓动的进度条（满格 64/128/256）、方块数不足时变红告警 |
 
-> 修改日期：2025 年（详见仓库提交记录）。
+> 修改日期：2026 年 11 月（详见仓库提交记录）。
 
 ---
 
